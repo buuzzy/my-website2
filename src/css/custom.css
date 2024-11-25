@@ -1,0 +1,147 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__logo img {
+  border-radius: 8px;
+  height: 28px;
+  width: auto;
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+[data-theme='dark'] .navbar__logo img {
+  filter: brightness(1);
+}
+
+.navbar__logo img:hover {
+  transform: scale(1.05);
+}
+
+/* 首页标题区域样式优化 */
+.hero {
+  padding: 4rem 0;
+  background: linear-gradient(180deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-darker) 100%);
+}
+
+.hero__title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  opacity: 0.9;
+}
+
+/* 按钮样式重设计 */
+.button--secondary {
+  background: white;
+  color: var(--ifm-color-primary-darker);
+  border: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.3px;
+}
+
+.button--secondary:hover {
+  background: white;
+  color: var(--ifm-color-primary-darker);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* 按钮容器样式优化 */
+.buttons {
+  --ifm-button-size-multiplier: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 996px) {
+  .buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .button--secondary {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+
+/* 特性区域样式优化 */
+.features {
+  padding: 5rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.features h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  background: linear-gradient(120deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.features p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* 响应式优化 */
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    padding: 3rem 0;
+  }
+}

@@ -1,0 +1,40 @@
+.features {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.features:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--ifm-color-emphasis-200) 50%,
+    transparent 100%
+  );
+}
+
+.featureCard {
+  height: 100%;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
