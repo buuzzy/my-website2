@@ -7,13 +7,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: '谈文解字',
   tagline: '做最好的 AI 产品设计网站',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // Set the production url of your site here
   url: 'https://你的GitHub用户名.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-website/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
