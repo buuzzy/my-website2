@@ -36,7 +36,12 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
+          include: ['**/*.{md,mdx}'],
+          sidebarCollapsed: true,
+          sidebarCollapsible: true,
         },
         blog: false,
         theme: {
