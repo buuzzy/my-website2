@@ -26,13 +26,13 @@ sidebar_label: 宏观产品设计
 打开 Airbnb 和 Booking 的主页，能够感受到截然不同的风格定位。前者更加年轻、活泼，突出社区感，后者更加严谨，突出功能和促转化，这便是 2 家公司的定位差异所致。 Airbnb 更加注重旅行中的融入感 （[Airbnb's mission is to create a world where anyone can belong anywhere](https://news.airbnb.com/airbnb-2019-business-update/)）；Booking 的使命是：[make it easier for everyone to experience the world](https://www.booking.com/content/about.en-gb.html?label=gen173bo-1FCBQoggJCBWFib3V0SCtYA2hiiAEBmAEruAEHyAEN2AEB6AEB-AEFiAIBogIKYm9va2luZy5jbqgCA7gC75bokwbAAgHSAiQ4ZDQ2Y2RmMC1kMGYyLTQ4MDMtOTlkYi01OWQ4MGQ2OGUwNjHYAgXgAgE\&sid=31436bcb42579843fbae458a6001f7f1\&tmpl=docs/about\&lang=en-gb\&soz=1\&lang_click=other;cdl=zh-cn;lang_changed=1)。（中国区的使命介绍：[游世界，更简单](https://www.booking.cn/content/about.zh-cn.html?sid=a16146651476283498af479a26ee06c3)。）更加突出了简单。
 
 
-![02](/static/img/macro-product-design_images/02.png)
+![02](/img/macro-product-design_images/02.png)
 
 <div className="text-center">
 *当你需要和家人、朋友一起去全世界走动游玩，花更多时间探寻当地文化时，会选择 Airbnb。*
 </div>
 
-![03](/static/img/macro-product-design_images/03.png)
+![03](/img/macro-product-design_images/03.png)
 
 <div className="text-center">
 *当你希望有一场确定性很强、不让自己分心的商务之旅时，你会选择 Booking（or 携程）*
@@ -50,7 +50,7 @@ sidebar_label: 宏观产品设计
 
 我们往往会因为遇到某个现实生活的不爽而迸发出一个新的产品念头，这是动机，而动机并不能帮助我们最终实现产品。因此你需要资源、方法论等来将念头实现，而 “定位” 凌驾于这些过程之上。
 
-![04](/static/img/macro-product-design_images/04.png)  
+![04](/img/macro-product-design_images/04.png)  
 
 
 * 只有在第一象限的产品才能够创造巨大而高效的价值增量，但显然难度也较大；
@@ -67,14 +67,14 @@ sidebar_label: 宏观产品设计
 
 除了有价值的独特性，“潜在客户” 也十分关键。你的独特是面向全球，还是面向中国，还是面向上海在校大学生。面向全球的独特性打造要远远难于面向某一类人群的独特性。但也正因如此，无论某个行业有多厉害的巨头垄断，人们总能找到某一个细分人群提供更好的产品。定义潜在人群便是定义产品一段时期的规模期望。
 
-![05](/static/img/macro-product-design_images/05.png)
+![05](/img/macro-product-design_images/05.png)
 例如，拼多多便是通过与淘宝、京东的差异化人群定位获得了第一阶段增长，有了一定规模后再逐步扩圈增长。
 
-![06](/static/img/macro-product-design_images/06.png)
+![06](/img/macro-product-design_images/06.png)
 
 美团通过中小单体酒店的开拓在中国酒店出租间夜数上超过了携程。中高端连锁酒店以万计，中低端单体酒店以几十万计，这便帮助美团撕开了一条赛道。
 
-![07](/static/img/macro-product-design_images/07.png)
+![07](/img/macro-product-design_images/07.png)
 
 至于选取多大的潜在客户作为目标，则需要与你期望提供的产品服务一同综合思考。
 
@@ -90,7 +90,7 @@ sidebar_label: 宏观产品设计
 
 因此，明确**产品价值、独特性**和**潜在客户群体类型、规模**是一个制衡的过程。
 
-![08](/static/img/macro-product-design_images/08.png)
+![08](/img/macro-product-design_images/08.png)
 
 例如去年走红的[妙鸭相机](https://www.miaoya.cn/)，上线后被人称作 “颠覆性的 AI 应用”。它支持用户上传图片，系统生成不同类型的写真照片。但后来，整个社区变成 “伸手党” 的乐土，每个使用妙鸭相机的用户进来就是抄模板、生成图片，走人。
 
@@ -98,13 +98,13 @@ sidebar_label: 宏观产品设计
 
 AI 写真的概念具有独特价值，但是人群较小，社区运营难度大。如果想和美图秀秀、美颜相机竞争是很难的，其他家产品只需要出一个 AI 模板大概率就会让其逐渐式微。**所以一开始定位、选择好客户群体相当重要，而非直接通过新技术去实现产品。**
 
-![09](/static/img/macro-product-design_images/09.png)
+![09](/img/macro-product-design_images/09.png)
 
 ### 定位是会发生变化的
 
 谨记，定位是可以变化的，我们需要辩证的看待当初设计的定位。倘若经过科学试验后发现定位有误，应立即进行复盘和**重新定位**。切忌迷迷糊糊地在错误的定位指导下继续消耗资源。**选择大于努力**。错误的定位会让产品完全迷失，最终走向终结。偏离的定位有机会被补救，但需要消耗更多的资源（C + B - A）。
 
-![10](/static/img/macro-product-design_images/10.png)
+![10](/img/macro-product-design_images/10.png)
 
 ## 验证用户价值
 
@@ -112,11 +112,11 @@ AI 写真的概念具有独特价值，但是人群较小，社区运营难度�
 
 当团队达成一致的定位目标后便需要开始分解工作，以达成目标。在互联网领域，企业往往选择优先论证新产品对目标用户是否真的有价值（PMF），然后再去验证是否能获取商业回报，使之可持续。
 
-![11](/static/img/macro-product-design_images/11.png)
+![11](/img/macro-product-design_images/11.png)
 
 PMF 的概念源自 2007 年：[ Product-Market Fit - PMF](https://cpjlrmsc.feishu.cn/wiki/WA3kwmoZ4iHWkWkiipBcBoC3nSl)。很多投资人会说需要找到产品和市场的契合点，Make it PMF。但它就是句非常完美的废话，如果做不到 PMF，产品就会死掉，PMF 是产品的核心要素。这里的 PMF 更像是一种思考指引，产品经理在实践中仍需要寻找客观的数字来帮助我们判断是否达到 PMF。还记得 AARRR 吗？
 
-![12](/static/img/macro-product-design_images/12.png)
+![12](/img/macro-product-design_images/12.png)
 
 一般在 MVP 阶段，团队资源有限，但目标明确。此时需要更多借助产品的力量进行用户新增。这也是为什么很多优秀的产品一开始都是邀请制的原因，邀请制可以提升早期用户的精准度，团队只需要把邀请码投放到希望加入的用户群体即可。同时，也放大了已加入用户的成就感，让他们更愿意自发地去邀请朋友加入。 比起产品增长期的邀请返现类行为，早期的饥饿营销式邀请的成本更低、精准度更高，虽然可能无法带来巨量的用户，但也许足以支撑团队验证产品是否能够达到 PMF。
 
@@ -124,7 +124,7 @@ PMF 的概念源自 2007 年：[ Product-Market Fit - PMF](https://cpjlrmsc.feis
 
 当有一定的用户规模后，团队通过观察精准用户使用产品后的留存情况、付费意愿情况（根据商业模式）等确定是否满足 PMF。同时，这个阶段我们并没有开始资金用于大规模获客，大量的获客手段无法执行，对 AA 的判断也不具备参考价值。因此，此刻我们的重心是通过 RRR 来验证产品是否具有用户价值：
 
-![13](/static/img/macro-product-design_images/13.png)
+![13](/img/macro-product-design_images/13.png)
 
 了解更多：[ 倒漏斗营销](https://cpjlrmsc.feishu.cn/wiki/GCUqwDUriicxXWkiY5Scip6qnkd)
 
@@ -202,7 +202,7 @@ PMF 的一个衡量标准是：至少 40% 的受访客户表示，如果他们�
 
 ## 验证商业价值
 
-![14](/static/img/macro-product-design_images/14.png)
+![14](/img/macro-product-design_images/14.png)
 
 当确定用户爱上了你的 MVP 产品后，便要开始验证这份喜爱是否可以养活这个产品，任何一家公司都得赚钱养活自己，不是吗？
 
@@ -210,7 +210,7 @@ PMF 的一个衡量标准是：至少 40% 的受访客户表示，如果他们�
 
 互联网公司常通过[ \*规模效应](https://cpjlrmsc.feishu.cn/wiki/CQWXw6pbEijfCLkGpwEc8G03nBc)（甚至[ \*网络效应](https://cpjlrmsc.feishu.cn/wiki/Exw0w0GJri15EekCNUzc290pn9b)）来想办法养活自己，不断降低自己的成本，提升壁垒、利润率最终达到 Breakeven，继而开始回收投资并盈利。正如我们在[ \*规模效应](https://cpjlrmsc.feishu.cn/wiki/CQWXw6pbEijfCLkGpwEc8G03nBc)章节中介绍的，首先要**关注可变成本与收入的关系**，而固定成本最终会被边际收益覆盖达到整体盈利。
 
-![15](/static/img/macro-product-design_images/15.png)
+![15](/img/macro-product-design_images/15.png)
 
 大部分互联网产品的可变成本主要集中在获客成本，也就是 CAC（Customer Acquisition Cost）。如果能够赚回获取用户的成本，自然就产生了利润。 而用户的贡献常用 LTV 来代表，用户生命周期价值，Life-time Value。其中 Value 的定义根据公司的业务类型不同算法也会不同，例如电商的 Value 常见是： 用户实际支付金额 - 商品采购成本 - 商品履约成本。而 Life-time 也需要根据产品实际情况来定义，用户留存得越久，自然越有机会产生更多的 Value。
 
@@ -224,7 +224,7 @@ Payback Period，投资回收期。
 
 即使 LTV > CAC 了，也要小心，要自己评估 Payback Period 在行业 or 规划里的水平，如果需要很长时间回收成本，则未来会存在很大的不确定性，商业模式过于脆弱。若需要很大量的获客成本，则对企业经营会产生现金流压力。同样是回本，3 周回本和 3 个月回本完全是两回事。因此，需要重点关注 CAC 的高低以及回本的斜率（Line：LTV-CAC）。
 
-![16](/static/img/macro-product-design_images/16.png)
+![16](/img/macro-product-design_images/16.png)
 
 ## 价值最大化
 
@@ -236,7 +236,7 @@ Payback Period，投资回收期。
 
 第二曲线是指在当前设计的产品成功后寻找新发展的过程，也就是回到 “明确定位” 这个环节从头再来。不同的是，你已经积累的用户、资金、生态、能力等资源，成功概率比起第一次创业会高出很多。但不是所有的曲线都可以称为第二曲线，往往需要基于上一阶段产生的积累，形成[ \*飞轮效应](https://cpjlrmsc.feishu.cn/wiki/GoL6wRQjGinHg2kCxJ7cPC4UnAe)。
 
-![17](/static/img/macro-product-design_images/17.png)
+![17](/img/macro-product-design_images/17.png)
 
 无法利用当前产品资源，一切从 0 开始的第二曲线是具有极大风险的，等同于从头再来，将再次面临 1% 不到的创业成功率。
 
@@ -250,7 +250,7 @@ Payback Period，投资回收期。
 
 ## 最后
 
-![18](/static/img/macro-product-design_images/18.png)
+![18](/img/macro-product-design_images/18.png)
 完成了上述阶段的规划便是完成了产品的宏观设计，你可能会觉得这不就是在设计一家初创企业吗？
 
 谁说不是呢？！&#x20;
