@@ -27,9 +27,11 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
+
+  staticDirectories: ['static'],
 
   presets: [
     [
@@ -39,7 +41,6 @@ const config: Config = {
           path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
-          include: ['**/*.{md,mdx}'],
           sidebarCollapsed: true,
           sidebarCollapsible: true,
         },

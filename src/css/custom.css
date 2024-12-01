@@ -15,6 +15,11 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --ifm-color-tip: #f6c343;  /* warning 的主色 */
+  --ifm-color-tip-dark: #e6b533;  /* warning 的深色 */
+  --ifm-color-tip-contrast-background: rgba(246, 195, 67, 0.1);  /* warning 的背景色 */
+  --ifm-color-tip-contrast-foreground: #805d14;  /* warning 的文字色 */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -144,4 +149,83 @@
   .features {
     padding: 3rem 0;
   }
+}
+
+/* 添加字体设置 */
+:root {
+  --ifm-font-family-base: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* 针对不同操作系统优化字体显示 */
+body {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 标题字体 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 600;
+}
+
+/* 优化文章内容区域 */
+.markdown {
+  --doc-width: 850px;
+  max-width: var(--doc-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* 正文和标题使用相同宽度 */
+.markdown p {
+  margin-bottom: 16px;
+  letter-spacing: 0.01em;
+}
+
+/* 图片容器 */
+.markdown img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 24px auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.alert--tip {
+  --ifm-alert-background-color: var(--ifm-color-tip-contrast-background);
+  --ifm-alert-border-color: var(--ifm-color-tip);
+  --ifm-alert-foreground-color: var(--ifm-color-tip-contrast-foreground);
+}
+
+.alert--tip svg {
+  fill: var(--ifm-color-tip);
+}
+
+/* 修改 tip 提示框的颜色为 warning 的颜色 */
+.theme-admonition-tip {
+  --ifm-alert-background-color: rgba(246, 195, 67, 0.1) !important;
+  --ifm-alert-border-color: rgb(246, 195, 67) !important;
+  --ifm-alert-foreground-color: var(--ifm-color-warning-contrast-foreground) !important;
+}
+
+/* 修改 tip 图标的颜色 */
+.theme-admonition-tip .admonitionIcon_Rf37 svg {
+  fill: rgb(246, 195, 67) !important;
+}
+
+/* 隐藏 tip 标题文字，只保留图标 */
+.theme-admonition-tip .admonitionHeading_Gvgb {
+  font-size: 0;  /* 将文字大小设为0 */
+}
+
+.theme-admonition-tip .admonitionIcon_Rf37 {
+  font-size: 16px;  /* 恢复图标大小 */
+}
+
+.text-center {
+  text-align: center;
 }
