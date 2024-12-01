@@ -96,17 +96,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-
-  markdown: {
-    mermaid: true,
-  },
-
-  scripts: [
-    {
-      src: '/js/fix-image-paths.js',
-      async: true,
-    },
-  ],
 };
 
 export default config;
