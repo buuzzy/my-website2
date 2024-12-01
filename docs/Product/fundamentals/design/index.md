@@ -14,5 +14,5 @@ sidebar_label: 产品设计概述
 5. [Scrum开发流程](./scrum-development.md) - 互联网产品开发的敏捷方法
 6. [排期控制](./schedule-control.md) - 项目进度的把控和管理
 
-让我们开始学习吧！
+
  
