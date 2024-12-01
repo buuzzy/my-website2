@@ -26,12 +26,14 @@ sidebar_label: 宏观产品设计
 打开 Airbnb 和 Booking 的主页，能够感受到截然不同的风格定位。前者更加年轻、活泼，突出社区感，后者更加严谨，突出功能和促转化，这便是 2 家公司的定位差异所致。 Airbnb 更加注重旅行中的融入感 （[Airbnb's mission is to create a world where anyone can belong anywhere](https://news.airbnb.com/airbnb-2019-business-update/)）；Booking 的使命是：[make it easier for everyone to experience the world](https://www.booking.com/content/about.en-gb.html?label=gen173bo-1FCBQoggJCBWFib3V0SCtYA2hiiAEBmAEruAEHyAEN2AEB6AEB-AEFiAIBogIKYm9va2luZy5jbqgCA7gC75bokwbAAgHSAiQ4ZDQ2Y2RmMC1kMGYyLTQ4MDMtOTlkYi01OWQ4MGQ2OGUwNjHYAgXgAgE\&sid=31436bcb42579843fbae458a6001f7f1\&tmpl=docs/about\&lang=en-gb\&soz=1\&lang_click=other;cdl=zh-cn;lang_changed=1)。（中国区的使命介绍：[游世界，更简单](https://www.booking.cn/content/about.zh-cn.html?sid=a16146651476283498af479a26ee06c3)。）更加突出了简单。
 
 
-![02](/img/macro-product-design_images/02.PNG)
+![02](/img/macro-product-design_images/02.png)
+
 <div className="text-center">
 *当你需要和家人、朋友一起去全世界走动游玩，花更多时间探寻当地文化时，会选择 Airbnb。*
 </div>
 
-![03](/img/macro-product-design_images/03.PNG)
+![03](/img/macro-product-design_images/03.png)
+
 <div className="text-center">
 *当你希望有一场确定性很强、不让自己分心的商务之旅时，你会选择 Booking（or 携程）*
 </div>
@@ -49,6 +51,7 @@ sidebar_label: 宏观产品设计
 我们往往会因为遇到某个现实生活的不爽而迸发出一个新的产品念头，这是动机，而动机并不能帮助我们最终实现产品。因此你需要资源、方法论等来将念头实现，而 “定位” 凌驾于这些过程之上。
 
 ![04](/img/macro-product-design_images/04.png)  
+
 
 * 只有在第一象限的产品才能够创造巨大而高效的价值增量，但显然难度也较大；
 
