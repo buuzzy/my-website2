@@ -87,7 +87,7 @@ sidebar_label: 如何搜集用户需求
 
 通过 App Store 或者其他应用商店去获取用户评价是一种最简单的方法。在其他社区产品，比方说同花顺、东方财富，产品在更新后会在社区发布更新内容，也允许用户评价。我们可以通过这些帖子了解用户更加精确的问题，比方说 XX 功能不好，想要支持什么功能，最好做成什么样子。
 
-![06](/img/how-to-collect-user-needs_images/06.PNG)
+![06](/img/how-to-collect-user-needs_images/06.png)
 
 <div className="text-center">
 *东方财富 - 功能驿站*
