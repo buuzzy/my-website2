@@ -32,7 +32,7 @@ sidebar_label: 宏观产品设计
 *当你需要和家人、朋友一起去全世界走动游玩，花更多时间探寻当地文化时，会选择 Airbnb。*
 </div>
 
-![03](/img/macro-product-design_images/03.png)
+![03](/img/macro-product-design_images/03.PNG)
 
 <div className="text-center">
 *当你希望有一场确定性很强、不让自己分心的商务之旅时，你会选择 Booking（or 携程）*
