@@ -46,7 +46,28 @@ const sidebars: SidebarsConfig = {
               type: 'category',
               label: '微观产品设计',
               items: [
-                'Product/fundamentals/design/micro-product-design/index',
+                'Product/fundamentals/design/micro-product-design/five-essential-diagrams',
+                'Product/fundamentals/design/micro-product-design/how-to-write-prd',
+                'Product/fundamentals/design/micro-product-design/how-to-collect-user-needs',
+                {
+                  type: 'category',
+                  label: '如何做好数据埋点',
+                  items: [
+                    'Product/fundamentals/design/micro-product-design/data-tracking/how-to-design-tracking',
+                    'Product/fundamentals/design/micro-product-design/data-tracking/tracking-process',
+                    'Product/fundamentals/design/micro-product-design/data-tracking/how-to-write-tracking-docs',
+                    'Product/fundamentals/design/micro-product-design/data-tracking/event-user-model',
+                    'Product/fundamentals/design/micro-product-design/data-tracking/tracking-standards',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: '写在版本上线前',
+                  items: [
+                    'Product/fundamentals/design/micro-product-design/release/how-to-write-release-notes',
+                    'Product/fundamentals/design/micro-product-design/release/how-to-write-acceptance-docs',
+                  ],
+                },
               ],
             },
             'Product/fundamentals/design/scrum-development',
