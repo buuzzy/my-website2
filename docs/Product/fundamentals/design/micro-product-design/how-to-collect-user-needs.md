@@ -55,7 +55,7 @@ sidebar_label: 如何搜集用户需求
 <br/>
 如果你已经了解了一些头部竞品，那么可以继续往下翻，去看某个领域排名的产品有没有值得你关注的，我通常关注前 500 Top 的竞品，有许多产品可能并不那么知名，但非常有趣，靠口碑传播。你还可以通过产品详情页去查看不同版本的更新时间以及更新时间对应的下载数据变化，从而去发掘产品做了哪些动作让产品变得更好或更差。
 
-![04](/img/product/how-to-collect-user-needs_images/04.PNG)
+![04](/img/product/how-to-collect-user-needs_images/04.png)
 
 <div className="text-center">
 *七麦数据：京东金融 - 实时排名*

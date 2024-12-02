@@ -26,7 +26,7 @@ sidebar_position: 5
 
 但这种形式存在一定的技术壁垒，首先要购买域名、配备服务器，还有懂一点前端代码。于是在这个基础上出现了第二代社交产品，比方说 `Chinaren` 和 `GeoCities`，这类产品允许用户自行搭建组件建站，大大降低了用户的操作难度。
 
-![03](/img/product/identify-needs_images/03.PNG)
+![03](/img/product/identify-needs_images/03.png)
 **美剧《绝命毒师》中，主角 Walter White 的儿子为其做的筹款海报。*
 
 ![04](/img/product/identify-needs_images/04.PNG)
