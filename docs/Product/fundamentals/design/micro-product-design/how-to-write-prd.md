@@ -11,7 +11,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 在互联网产品研发流程中，产品经理要参与许许多多的会议。在 Review Meeting 评审会议中，产品经理通常需要一份清晰的 PRD（Product Requirements Document，产品需求文档）来进行讲解。PRD 作为产品经理的重要武器。它对过往的需求分析和市场研究进行阶段性总结，并转化为上下游都能看懂的产品设计说明，从而进一步交付到 Ued、Dev、Testing、Ops 进一步实现产品。
 
-![01](/img/how-to-write-prd_images/01.png)
+![01](/img/product/how-to-write-prd_images/01.png)
 
 基于功能规模、难度、类型的不同，PRD 文档会有不同的表现形式。常见有以下几种情况：
 
@@ -63,7 +63,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 还记得在产品迭代流程中 Story 是基于 Goal（目标）拆解而来的吗？因此一份好的 PRD 会从产品大目标出发开始，循序渐进拆解设计到最细的颗粒度，以 “总-分” 的结构展开。一份完整的 PRD 文档结构大致可以分为：
 
-![02](/img/how-to-write-prd_images/02.png)
+![02](/img/product/how-to-write-prd_images/02.png)
 
 其中核心体验流程、模块、功能、页面结构、交互就是[ 产品设计必备的五张图](https://cpjlrmsc.feishu.cn/wiki/VZcawJvYBiUkmNkWqOCc6PYNnld)中提到的内容，是整个 PRD 的最基础也是最重要的组成部分。忘记的同学可以重新回顾一下内容。
 
@@ -199,7 +199,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 扩展阅读：[ \*为什么周报如此重要](https://cpjlrmsc.feishu.cn/wiki/GXTwwRtEgilQtikH3ffc6Zybnte)
 
-![03](/img/how-to-write-prd_images/03.png)
+![03](/img/product/how-to-write-prd_images/03.png)
 
 产品新人（比如我，还在摸索阶段）可能由于经验不足，无法准确的预估未来指标。不用担心，只要在进步，总能被看见。反而，如果不预测，当产品上线后再去找指标、看数据，会认为看到的是理所当然的数字，难以促进反思。根据我的经验，不断的预测、验证可以显著提升自己的经验值和预测能力。
 
@@ -252,11 +252,11 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 > 本次新增视频功能，涉及到的模块：
 
-![04](/img/how-to-write-prd_images/04.png)
+![04](/img/product/how-to-write-prd_images/04.png)
 
 这样写起来是不是很简单？ 对于开发部门来说，只需要根据模块内的不同功能进行设计，而不必去思考究竟哪些功能属于哪些模块，应该将哪些功能归入哪些模块之中。
 
-![05](/img/how-to-write-prd_images/05.png)
+![05](/img/product/how-to-write-prd_images/05.png)
 
 *如果结构并不清晰，如何定位自己做的功能范围？*
 
@@ -272,7 +272,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 功能清单是基于模块的进一步细化，我们继续举例：
 
-![06](/img/how-to-write-prd_images/06.png)
+![06](/img/product/how-to-write-prd_images/06.png)
 
 *\*注：M 指 Model（模块），F 指 function（功能）*
 
@@ -288,7 +288,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 举例（小红书）：
 
-![07](/img/how-to-write-prd_images/07.png)
+![07](/img/product/how-to-write-prd_images/07.png)
 
 如今关于页面结构、交互设计的协作 SaaS 越来越多，比如 Axure、墨刀等。通常在交流产品设计细节的时候都会直接甩一个链接，方便团队了解页面细节，进行标注或评论。
 
@@ -347,7 +347,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 <br/>
 以行情产品为例，来看看报表设计需要包括哪些要素：
 
-![08](/img/how-to-write-prd_images/08.png)
+![08](/img/product/how-to-write-prd_images/08.png)
 
 回到上面我们讲的网红社区，假如现在要做视频审核功能，与之对应就要有视频审核报表，报表需要包括以下要素：
 

@@ -57,11 +57,11 @@ sidebar_position: 1
 
 产品经理在产品生命周期需要做的事情：
 
-![产品经理的职责](/img/what-is-pm_images/01.png)
+![产品经理的职责](/img/product/what-is-pm_images/01.png)
 
 除了这些能力，产品经理如果还能了解、掌握公司营运的职能，比如销售、谈判、财务、融资... 那几乎就等同于一家小型公司的 CEO 了。这也是我为什么一直认为超级个体只会诞生在产品经理这个群体。预想一个场景：
 
-![产品经理的能力模型](/img/what-is-pm_images/02.png)
+![产品经理的能力模型](/img/product/what-is-pm_images/02.png)
 
 :::tip AI & 产品经理
 在未来 AI 加持的前提下，产品经理一个人几乎可以解决所有问题和需求。

@@ -33,7 +33,7 @@ sidebar_label: 如何分析竞品与行业
 
 这不完全正确，PRD 只是阐述一个产品的设计细节，并不能完整包含公司的战略、业务运营上的策略，也没有包含对所处行业的规模、潜力和竞争态势的分析。因此，我们还有不少工作要做。
 
-![01](/img/how-to-analyze-product_images/01.png)
+![01](/img/product/how-to-analyze-product_images/01.png)
 
 ## 明确目标市场
 
@@ -55,15 +55,15 @@ sidebar_label: 如何分析竞品与行业
 
 市场边界定义清楚后才能够指导未来的分析深度。并不是所有做电商的产品都要和淘宝、京东去比较。
 
-![02](/img/how-to-analyze-product_images/02.png)
+![02](/img/product/how-to-analyze-product_images/02.png)
 
 举几个例子，比方说在证券应用内常见的虚拟商品，比方说付费指标：
 
-![03](/img/how-to-analyze-product_images/03.png)
+![03](/img/product/how-to-analyze-product_images/03.png)
 
 如果是实物商品，比方说瑜伽服饰品类，它的分类大概是：
 
-![04](/img/how-to-analyze-product_images/04.png)
+![04](/img/product/how-to-analyze-product_images/04.png)
 
 ## 明确产品类型
 
@@ -95,7 +95,7 @@ sidebar_label: 如何分析竞品与行业
 
 2. 提供方往往投入度高、决策压力大，通常都会更加关注目标行业的整体发展情况，更容易收集到 “二手信息（线索）”，效率高。大型电商品牌在电商平台的年投入可能上亿，而一个买家可能每年只有几千元。
 
-![05](/img/how-to-analyze-product_images/05.png)
+![05](/img/product/how-to-analyze-product_images/05.png)
 
 举个例子，比方说我们要调研面向 B 端用户的 CRM、SaaS、金融终端等平台，最容易的方法就是和他们的产品经理（销售端）沟通，他们对市场和客户的认知要远超普通的 B 端客户。又或者我们要调研运动服饰，去线下健身房采访撸铁大佬或者去出售健身装备的商家效果会更好。
 
@@ -199,7 +199,7 @@ sidebar_label: 如何分析竞品与行业
 :::
 
 例如：招商银行的话题调研、饿了么首页瀑布流浏览调研、国泰君安期货的用户偏好调研。
-![00](/img/how-to-analyze-product_images/00.png)
+![06](/img/product/how-to-analyze-product_images/06.png)
 
 NPS 调研也是最常见的轻量级问卷系统之一。你也可以调研用户对竞品某些功能的看法。
 
@@ -229,7 +229,7 @@ NPS 调研也是最常见的轻量级问卷系统之一。你也可以调研用�
 
 如果是上市公司，可以直接获取到财报文件，例如美股 [SEC](http://www.sec.gov).
 
-![06](/img/how-to-analyze-product_images/06.png)
+![07](/img/product/how-to-analyze-product_images/07.png)
 
 不同 Form Type 代表不同的文件：
 
@@ -263,11 +263,11 @@ https://www.sec.gov/ix?doc=/Archives/edgar/data/0001723690/000119312522116261/d6
 
 你可以从中非常准确的了解到必要的公司营收变化和关键指标变化，例如 MAU 趋势：
 
-![07](/img/how-to-analyze-product_images/07.png)
+![08](/img/product/how-to-analyze-product_images/08.png)
 
 也能够看到上图中 B 站自己对 MAU 组成的解释，往往重要的业务都会被提及。例如上图中提及了： Videos、Live broadcasting、mobile games and other content。从下图你可以清楚的了解到 B 站净收入的组成与趋势，以及业务发展情况。
 
-![08](/img/how-to-analyze-product_images/08.png)
+![09](/img/product/how-to-analyze-product_images/09.png)
 
 
 #### 专业观点

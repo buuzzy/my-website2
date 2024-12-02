@@ -31,7 +31,7 @@ sidebar_label: 事件-用户模型
 
 在[ 数据埋点的设计流程](https://cpjlrmsc.feishu.cn/wiki/SWWNwlzu2ii1YLkhUvOc6I6OnVl)中，我们使用的便是这种思考视角。但整体来看，分析思路是零碎的。核心业务的漏斗数据或者某些重要的数据组并不能直接告诉我们背后的答案，在当时的语境下，产品经理需要将用户和事件视角结合起来分析，才更有可能发现数据背后的秘密。分析单一维度，并不能有所收获。
 
-![01](\img\event-user-model_images\01.png)
+![01](/img/product/event-user-model_images/01.png)
 
 那么，我们有没有方案去解决这一种问题呢，比如说更换一种看待数据的视角？答案是有的。这种方式是目前业界主流的方式，事件模型（事件视角）。
 

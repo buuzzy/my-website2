@@ -28,19 +28,19 @@ sidebar_label: 如何掌控排期
 
 每个 `Sprint` 就像是一艘集装箱船，`Backlog` 里的需求就像是岸上的货柜，产品经理就是吊机，负责将一定数量的货柜装到船上。研发团队便要驾驶这艘船按时、安全地抵达对岸。
 
-![01](/img/schedule-control_images/01.png)
+![01](/img/product/schedule-control_images/01.png)
 
 当项目比较急，需要团队加班时，也就是出现文章一开始的情况时，这意味着船上的货柜会变多，航行的安全性开始下降，甚至有可能会导致倾覆。对应的则是团队的研发质量可能下降，甚至有些功能最终还是来不及上线。
 
-![02](/img/schedule-control_images/02.png)
+![02](/img/product/schedule-control_images/02.png)
 
 当载货量匹配不合理时，船的载货量不足，浪费了一次航行机会，提高了成本。也降低了岸上货柜的物流周期。对应的则是产品迭代缓慢，用户怨声载道。
 
-![03](/img/schedule-control_images/03.png)
+![03](/img/product/schedule-control_images/03.png)
 
 当货柜随意摆放时，天知道会发生什么，抵达后卸货都困难。 对应的是研发过程管理混乱，遗漏需求、随意更改需求时有发生，最终用户对新功能甚至会感到不解。
 
-![04](/img/schedule-control_images/04.png)
+![04](/img/product/schedule-control_images/04.png)
 
 回到文章开头引用的例子，实际上都是压缩排期的情况。压缩排期通常会牺牲了员工的正常休息时间，其次是它经常伴随着需求质量的下降。加班好理解，为什么需求质量会下降呢？
 
@@ -63,7 +63,7 @@ sidebar_label: 如何掌控排期
 
 ### Backlog 的三种状态
 
-![05](/img/schedule-control_images/05.png)
+![05](/img/product/schedule-control_images/05.png)
 
 #### Talk - 记录感性需求
 
@@ -106,7 +106,7 @@ _*_ _许多业务方都没有向下挖掘的意识，这一行为俗称：想到
 
 既然已经搞明白需求细节以及设计方案了，那就值得更新一次优先级啦。Doc 阶段的需求优先级基本决定了下一个迭代的研发内容。对于规模小、处事灵活的团队，可以通过简单的沟通获得各方对优先级的一致认可。对于大规模团队，建议通过会议的形式定期对未来 N 个 `Sprints` 的需求进行优先级讨论。
 
-![06](/img/schedule-control_images/06.png)
+![06](/img/product/schedule-control_images/06.png)
 
 优先级评审会（Priority Review Meeting）的参与者应涵盖相应 `Backlog` 的所有需求方，大家坐到一起，根据产品的顶层 Roadmap 达成优先级的一致性。一旦达成群体一致，任何人都不应随意更改优先级，即使是产品经理。
 
@@ -130,7 +130,7 @@ _*_ _即便有 PRM 的存在，但多数公司的产品需求优先级的确定�
 
 > 本月产品的重要目标是能够在月底上线新的整体视觉方案，以支撑下月初公司的品牌升级发布会。那么这个需求已经有了明确的 Deadline，如果无法按期完成将显著影响公司业务开展，较为紧急。但是从产品整体效率而言，可能并没有提供分期付款更重要。
 
-![07](/img/schedule-control_images/07.png)
+![07](/img/product/schedule-control_images/07.png)
 
 在这里，我们引入**四象限法则理论**。
 
@@ -143,7 +143,7 @@ _*_ _即便有 PRM 的存在，但多数公司的产品需求优先级的确定�
 
 他的时间管理理论的一个重要观念是应该把主要的精力和时间集中地放在处理那些重要但不紧急的工作上，这样可以做到未雨绸缪，防患于未然。对于产品经理而言，四象限法则能够让我们更高效地管理需求。
 
-![08](/img/schedule-control_images/08.png)
+![08](/img/product/schedule-control_images/08.png)
 将 `Backlog` 放入以上四个象限，便可形成 4 个 `Backlog` 层次。无论何时我们都应该主要关注重要的需求（第 1、2 象限的需求），并不断思考为何会出现不重要的需求。
 
 #### P0 - 重要、紧急
@@ -182,15 +182,15 @@ P1 的需求往往对产品的终局有重要的影响，但是由于前提条�
 
 一般来说，敏捷研发的公司都会组建一个个小规模的产品领域团队（Domain Team），下图就是一种常见的人员配置比例：
 
-![09](/img/schedule-control_images/09.png)
+![09](/img/product/schedule-control_images/09.png)
 
 通过合理的人员配置，既可以有序的交付结果，也不会造成任何一个岗位的资源浪费。如果这个比例失衡，研发工程师过少，导致每个迭代只能实现很小一部分需求，其他角色的工作量骤减，造成资源浪费。
 
-![10](/img/schedule-control_images/10.png)
+![10](/img/product/schedule-control_images/10.png)
 
 如果研发工程师过多，则每次可以实现众多需求，1 个产品经理也许跟不上节奏，最终会导致工程师无事可干，或者导致产品需求为了赶工粗制滥造。
 
-![11](/img/schedule-control_images/11.png)
+![11](/img/product/schedule-control_images/11.png)
 
 因此，为了产品迭代的有序性，首先要平衡好团队成员配比。
 
@@ -198,7 +198,7 @@ P1 的需求往往对产品的终局有重要的影响，但是由于前提条�
 
 受制于研发语言的隔阂，往往某位研发工程师只能提供某一种研发能力，这增大了人力配比难度。对于比较大型的公司还好说，可以通过团队间的不断平衡来尽可能合理化配置。但是对于小型团队，合理配置工程师技术栈相对更困难一些。
 
-![12](/img/schedule-control_images/12.png)
+![12](/img/product/schedule-control_images/12.png)
 
 但是，当团队中的工程师技能突破局限性后，某些工程师可能会拥有 2 个及以上的技术栈能力。例如不仅会 H5，也会服务器端（如 Java），排期将更具有灵活性。举个例子，当有个产品功能需要投入以下工作量时，不同的团队结构将带来不同的结果。
 
@@ -244,7 +244,7 @@ P1 的需求往往对产品的终局有重要的影响，但是由于前提条�
 
 我们便建立了一个从需求产生到上线的排期管理 SOP，并在不同环节投入不多不少的精力，推动产品前行。
 
-![13](/img/schedule-control_images/13.png)
+![13](/img/product/schedule-control_images/13.png)
 
 ## 研发团队如何看待排期
 

@@ -98,7 +98,54 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: '产品实战',
-      items: ['Product/practice/index'],
+      items: [
+        {
+          type: 'category',
+          label: '搜索功能设计',
+          items: [
+            'Product/practice/search-design/search-design',
+            'Product/practice/search-design/search-process',
+            'Product/practice/search-design/search-detail',
+            'Product/practice/search-design/search-optimization',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'MVP产品设计',
+          items: [
+            'Product/practice/mvp-design/part1',
+            'Product/practice/mvp-design/part2',
+          ],
+        },
+        {
+          type: 'category',
+          label: '如何更好理解项目',
+          items: [
+            'Product/practice/project-understanding/how-to-understand',
+            'Product/practice/project-understanding/how-to-read-docs',
+            'Product/practice/project-understanding/how-to-break-down',
+            {
+              type: 'category',
+              label: '一个金融项目的完整复盘',
+              items: [
+                'Product/practice/project-understanding/case-study/part1',
+                'Product/practice/project-understanding/case-study/part2',
+                'Product/practice/project-understanding/case-study/part3',
+                'Product/practice/project-understanding/case-study/part4',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: '竞品调研专题',
+          items: [
+            'Product/practice/competitive-research/stock-list',
+            'Product/practice/competitive-research/gf-research',
+          ],
+        },
+        'Product/practice/position-billboard',
+      ],
     },
     {
       type: 'category',
