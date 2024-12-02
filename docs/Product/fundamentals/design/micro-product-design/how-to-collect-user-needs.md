@@ -73,7 +73,7 @@ sidebar_label: 如何搜集用户需求
 
 第一个最简单的方法是，通过各大应用商店去了解用户评价，能够大致了解产品大方面的问题集中在哪里。比方说下图中对于云闪付的差评，大部分用户反映的是产品运营策略和促销手段的问题，其中有用户提到部分补贴、优惠券无法领取，这可能是运营中台配置过期未及时下线或未在详情页说明线下适用门店。也有用户提到 Push 和运营活动设计令人不太舒服，这体现了云闪付运营团队的营销规划可能整体过于冒进，更多地考虑了收益，用户体验较差。
 
-![05](/img/product/how-to-collect-user-needs_images/05.PNG)
+![05](/img/product/how-to-collect-user-needs_images/05.png)
 
 <div className="text-center">
 [云闪付：用户评价（App Store）](https://apps.apple.com/cn/app/%E4%BA%91%E9%97%AA%E4%BB%98-%E9%93%B6%E8%A1%8C%E4%B8%9A%E7%BB%9C%E4%B8%80%E7%A7%BB%E5%8A%A8%E6%94%AF%E4%BB%98app/id600273928?see-all=reviews)
