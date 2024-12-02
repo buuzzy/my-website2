@@ -111,14 +111,6 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'MVP产品设计',
-          items: [
-            'Product/practice/mvp-design/part1',
-            'Product/practice/mvp-design/part2',
-          ],
-        },
-        {
-          type: 'category',
           label: '如何更好理解项目',
           items: [
             'Product/practice/project-understanding/how-to-understand',

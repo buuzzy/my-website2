@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
-sidebar_label: Part 2
+sidebar_label: Part2 签约测评
 ---
 
-# 一个金融项目的完整复盘 - Part 2
+# Part2 签约测评
 
 本文将介绍金融项目复盘的第二部分内容。 
