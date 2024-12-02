@@ -76,6 +76,40 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: '产品运营',
+      items: [
+        
+        {
+          type: 'category',
+          label: '职业发展',
+          items: [
+            'Product/operations/career/types',
+            'Product/operations/career/career-path',
+            'Product/operations/career/transfer-to-pm',
+            'Product/operations/career/cooperation-with-pm',
+          ],
+        },
+        'Product/operations/data-analysis',
+        'Product/operations/growth-matters',
+      ],
+    },
+    {
+      type: 'category',
+      label: '产品实战',
+      items: ['Product/practice/index'],
+    },
+    {
+      type: 'category',
+      label: '通用能力',
+      items: ['Product/general-skills/index'],
+    },
+    {
+      type: 'category',
+      label: '阅读思考',
+      items: ['Product/reading/index'],
+    },
   ],
 };
 
