@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-sidebar_label: Part1 开户绑定
+sidebar_label: Part 1 开户绑定
 ---
 
-# Part1 开户绑定
+# Part 1 开户绑定
 
 :::tip
  在金融项目全流程设计系列中，前三篇文章从方法论和实践的角度对一个互联网金融项目文档进行了拆解和分析。本篇文章会在[ 如何将项目拆解为需求？](https://cpjlrmsc.feishu.cn/wiki/HiCnwNeUAiywemkfY1Hcf1zBnjg)的基础上，基于用户体验路径，更深入地对积利金项目进行拆解。
