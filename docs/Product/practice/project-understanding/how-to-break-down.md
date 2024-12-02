@@ -15,7 +15,7 @@ sidebar_label: 如何将项目拆解为需求
 
 在积利金项目文档中，甲方给过一个产品用户体验路径图，用户使用、购买积利金产品主要分为 8 个环节，如下图所示：
 
-![01](/img/practice/how-to-break-down_images/01.png)
+![01](/img/practice/how-to-break-down_images/01.PNG)
 
 <div class="text-center">
 *如果你还未读过这篇文档，👉[ 如何阅读项目文档？](https://cpjlrmsc.feishu.cn/wiki/PDsCw36NgiyzaOkmQOwcBJuqnKg)*
