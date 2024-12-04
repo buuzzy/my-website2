@@ -142,12 +142,44 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: '通用能力',
-      items: ['Product/general-skills/index'],
+      items: [
+        {
+          type: 'category',
+          label: '职场技能',
+          items: [
+            'Product/general-skills/workplace-skills/okr-guide',
+            'Product/general-skills/workplace-skills/how-to-bypass-gfw',
+            'Product/general-skills/workplace-skills/why-weekly-report',
+            'Product/general-skills/workplace-skills/how-to-be-efficient',
+            'Product/general-skills/workplace-skills/how-interviewer-choose',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'What is？',
+          items: [
+            'Product/general-skills/what-is/scale-effect',
+            'Product/general-skills/what-is/network-effect',
+            'Product/general-skills/what-is/flywheel-effect',
+            'Product/general-skills/what-is/unit-economics',
+          ],
+        },
+      ],
     },
     {
       type: 'category',
       label: '阅读思考',
-      items: ['Product/reading/index'],
+      items: [
+        'Product/reading/product-portfolio',
+        {
+          type: 'category',
+          label: '书籍推荐',
+          items: [
+            'Product/reading/book-recommendations/enterprise-history',
+            'Product/reading/book-recommendations/tools-and-theories',
+          ],
+        },
+      ],
     },
   ],
 };
