@@ -6,7 +6,7 @@ sidebar_label: 如何将项目拆解为需求
 # 如何将项目拆解为需求
 
 :::tip
- 在[ 产品设计必备的五张图](https://cpjlrmsc.feishu.cn/wiki/VZcawJvYBiUkmNkWqOCc6PYNnld)中，文章讨论过关于产品设计的思路，从用户体验路径开始，由浅入深地递进到产品交互的环节。同样，这种方式也可以应用到项目中，让产品经理更好地理解项目，将项目转化为可落地的需求。
+ 在[ 产品设计必备的五张图](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)中，文章讨论过关于产品设计的思路，从用户体验路径开始，由浅入深地递进到产品交互的环节。同样，这种方式也可以应用到项目中，让产品经理更好地理解项目，将项目转化为可落地的需求。
 :::
 
 
@@ -18,7 +18,7 @@ sidebar_label: 如何将项目拆解为需求
 ![01](/img/practice/how-to-break-down_images/01.PNG)
 
 <div class="text-center">
-*如果你还未读过这篇文档，👉[ 如何阅读项目文档？](https://cpjlrmsc.feishu.cn/wiki/PDsCw36NgiyzaOkmQOwcBJuqnKg)*
+*如果你还未读过这篇文档，👉[ 如何阅读项目文档？](docs\Product\practice\project-understanding\how-to-read-docs.md)*
 </div>
 <br/>
 
@@ -60,7 +60,7 @@ sidebar_label: 如何将项目拆解为需求
 
 如上图所示，这只是用户进入开户流程之前的操作，后续还有很长的一段开户流程。对于用户来说，可能仅仅是点击了 “开户” 这个按钮，但背后的逻辑相当复杂。
 
-*\*开户绑定的坑很多，我们在[ \*一个金融项目的完整复盘（上）](https://cpjlrmsc.feishu.cn/wiki/BNfgwuNFFicsxPkUb9ccXQkYn4c)接着聊。*
+*开户绑定的坑很多，我们在[ 金融项目的完整复盘 ](docs\Product\practice\project-understanding\case-study\part1.md)接着聊。*
 
 <br/>
 
@@ -117,9 +117,9 @@ sidebar_label: 如何将项目拆解为需求
 ### 交易查询
 
 最后一个环节是`交易查询`，产品需要为用户提供查询交易记录的功能，`交易查询`具体包括三个方面：
-    * **时间：**&#x8D44;金转入/转出、购买/赎回产品的时间
-    * **事件：**&#x8F6C;入/转出的金额、购买/赎回的产品名称
-    * **状态：**&#x6210;功 or 失败
+    * **时间**：资金转入/转出、购买/赎回产品的时间
+    * **事件**：转入/转出的金额、购买/赎回的产品名称
+    * **状态**：成功 or 失败
 
 ![09](/img/practice/how-to-break-down_images/09.png)
 
@@ -130,7 +130,7 @@ sidebar_label: 如何将项目拆解为需求
 对于新业务、新产品，产品经理需要考虑设计的用户体验路径是否合理，过长的流程势必会使用户厌烦，过短的流程很难从中了解用户的属性。
 
 | **问题** |
-| ------ |
+| :------ |
 |1. 用户体验路径是否合理，过长还是过短？|
 |2. 流程能否缩短优化，如果删去某一环节，会产生什么影响？|
 |3. 体验路径是否会出现分支的情况？用户还会去到哪些路径？|
@@ -160,7 +160,7 @@ sidebar_label: 如何将项目拆解为需求
 
 产品模块的划分可以很简单，基于甲方的项目文档或者零散划分就能得到一个模块。但工作中远有比积利金更复杂的项目，图快省事只会导致产品结构混乱，最终 Crash 掉。产品经理需要利用好产品思维进行统筹，补全思考。
 
-👉[ 什么是产品思维？](https://cpjlrmsc.feishu.cn/wiki/OA0BwlMReiqdsKkgdlxcZ3LMncb)
+👉[ 什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)
 
 ## 产品功能树
 
@@ -184,7 +184,8 @@ sidebar_label: 如何将项目拆解为需求
 
 ![14](/img/practice/how-to-break-down_images/14.png)
 
-*\*如果有遗漏或者要新增页面，进行补全就可以了，不要求一开始就绘制得很完美。*
+<div class="text-center">*如果有遗漏或者要新增页面，进行补全就可以了，不要求一开始就绘制得很完美。*</div>
+<br/>
 
 
 
@@ -198,7 +199,7 @@ sidebar_label: 如何将项目拆解为需求
 
 ## 交互设计图
 
-这一小节就不展开了，更多详情请复习[ 产品设计必备的五张图](https://cpjlrmsc.feishu.cn/wiki/VZcawJvYBiUkmNkWqOCc6PYNnld)。
+这一小节就不展开了，更多详情请复习[ 产品设计必备的五张图](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)。
 
 
 

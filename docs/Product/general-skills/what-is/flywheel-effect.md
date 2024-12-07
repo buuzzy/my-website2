@@ -17,7 +17,7 @@ sidebar_label: 飞轮效应
 
 <br/>
 
-由于交易规模的不断增大，供应商的交易额也得到了提升，在[ 规模效应](https://cpjlrmsc.feishu.cn/wiki/CQWXw6pbEijfCLkGpwEc8G03nBc)下，单本书的生产成本也越来越低，成本低了，售价自然也就有空间降低。
+由于交易规模的不断增大，供应商的交易额也得到了提升，在[规模效应](docs\Product\general-skills\what-is\scale-effect.md)下，单本书的生产成本也越来越低，成本低了，售价自然也就有空间降低。
 
 :::tip
 达成成就：**性价比**

@@ -6,7 +6,7 @@ sidebar_label: 企业历史类
 # 企业历史类
 
 | 公司 | 书名 | 链接 |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | 美团 | 《九败一胜》 | https://book.douban.com/subject/25975454/ |
 | Paypal | 《支付战争》 | https://book.douban.com/subject/26324497/ |
 | 支付宝 | 《蚂蚁金服》 | https://book.douban.com/subject/27004031/ |
