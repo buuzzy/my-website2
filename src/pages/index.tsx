@@ -3,7 +3,9 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import NotificationModal from '@site/src/components/NotificationModal';
 import Heading from '@theme/Heading';
+import { useEffect, useState } from 'react';
 
 import styles from './index.module.css';
 
@@ -35,6 +37,12 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+  const [isBrowser, setIsBrowser] = useState(false);
+  
+  useEffect(() => {
+    setIsBrowser(true);
+  }, []);
+
   return (
     <Layout
       title={siteConfig.tagline}
@@ -43,6 +51,7 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
       </main>
+      {isBrowser && <NotificationModal />}
     </Layout>
   );
 }
