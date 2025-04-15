@@ -91,14 +91,6 @@ const config: Config = {
         autoCollapseCategories: true,
       }
     },
-    // 添加虚拟的Algolia搜索配置，解决构建错误
-    algolia: {
-      apiKey: 'dummy-api-key',
-      indexName: 'dummy-index',
-      appId: 'dummy-app-id',
-      contextualSearch: false,
-      searchPagePath: false,
-    },
   } satisfies Preset.ThemeConfig,
 };
 
