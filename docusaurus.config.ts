@@ -5,20 +5,20 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '谈文解字',
-  tagline: '做最好的 AI 产品设计网站',
-  favicon: 'img/logo.svg',
+  title: 'Minimal Test Site',
+  tagline: 'Minimal Tagline',
+  // favicon: 'img/logo.svg',
 
   // Set the production url of your site here
-  url: 'https://buuzzy.github.io',
+  url: 'https://example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'buuzzy', // 你的 GitHub 用户名
-  projectName: 'buuzzy.github.io', // 使用实际的仓库名
+  organizationName: 'your-org', // 你的 GitHub 用户名
+  projectName: 'your-project', // 使用实际的仓库名
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,21 +38,19 @@ const config: Config = {
       'classic',
       {
         docs: {
-          path: 'docs',
-          routeBasePath: 'docs',
-          sidebarPath: './sidebars.ts',
-          sidebarCollapsed: true,
-          sidebarCollapsible: true,
+          // 使用默认路径和路由
+          sidebarPath: './sidebars.ts', // 仍然指向简化后的 sidebars
         },
-        blog: false,
+        blog: false, // 禁用 blog
         theme: {
-          customCss: './src/css/custom.css',
+          // 尝试暂时移除 customCss
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      } satisfies Preset.Options,
+      } satisfies Preset.Options, // 确保 Preset 类型可用
     ],
   ],
 
-  themeConfig: {
+  themeConfig: { // 提供最基础的 themeConfig
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     tableOfContents: {
@@ -60,26 +58,17 @@ const config: Config = {
       maxHeadingLevel: 4,
     },
     navbar: {
-      title: '谈文解字',
+      title: 'Minimal Site',
       logo: {
         alt: '谈文解字 Logo',
         src: 'img/logo.svg',
       },
-      items: [
-        {
-          label: 'AI 课程入门',
-          to: '/docs/AI',
-        },
-        {
-          label: '产品设计入门',
-          to: '/docs/Product',
-        },
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © 2025 My Project, Inc. Built with Docusaurus.`,
+      copyright: `Minimal Copyright`,
     },
     prism: {
       theme: prismThemes.github,
@@ -91,7 +80,7 @@ const config: Config = {
         autoCollapseCategories: true,
       }
     },
-  } satisfies Preset.ThemeConfig,
+  } satisfies Preset.ThemeConfig, // 确保 Preset 类型可用
 };
 
 export default config;

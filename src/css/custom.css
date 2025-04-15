@@ -4,18 +4,8 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  /* 移除或注释掉全局的粉色变量定义 */
-  /* --ifm-color-primary: #f472b6; */
-  /* --ifm-color-primary-dark: #ec4899; */
-  /* --ifm-color-primary-darker: #db2777; */
-  /* --ifm-color-primary-darkest: #be185d; */
-  /* --ifm-color-primary-light: #f9a8d4; */
-  /* --ifm-color-primary-lighter: #fbcfe8; */
-  /* --ifm-color-primary-lightest: #fdf2f8; */
-
-  /* 可以保留其他非粉色的全局变量，比如字体、提示色等 */
+  /* 保留非粉色变量 */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -23,22 +13,10 @@
   --ifm-color-tip-dark: #e6b533;
   --ifm-color-tip-contrast-background: rgba(246, 195, 67, 0.1);
   --ifm-color-tip-contrast-foreground: #805d14;
-
-  /* 移除补充的全局粉色/紫色变量，后面只在主页用 */
-  /* --ifm-color-purple: #9089fc; */
-  /* --ifm-color-pink: #ff80b5; */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  /* 同样，移除或注释掉暗模式下的全局粉色变量 */
-  /* --ifm-color-primary: #f9a8d4; */
-  /* --ifm-color-primary-dark: #f472b6; */
-  /* --ifm-color-primary-darker: #ec4899; */
-  /* --ifm-color-primary-darkest: #db2777; */
-  /* --ifm-color-primary-light: #fbcfe8; */
-  /* --ifm-color-primary-lighter: #fce7f3; */
-  /* --ifm-color-primary-lightest: #fdf2f8; */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -58,8 +36,8 @@
   transform: scale(1.05);
 }
 
-/* 首页标题区域样式优化 */
-body.route--/ header.hero {
+/* 首页标题区域样式优化 - 使用 ID 选择器 */
+#homepage-hero {
   padding: 4rem 0;
   position: relative;
   isolation: isolate;
@@ -67,38 +45,33 @@ body.route--/ header.hero {
   z-index: 0;
 }
 
-/* 左侧/顶部光晕 - 增大尺寸并调整位置使其覆盖更多 */
-body.route--/ header.hero::before {
+/* 左侧/顶部光晕 - 恢复并修改选择器 */
+#homepage-hero::before {
   content: '';
   position: absolute;
   z-index: -1;
-  /* 调整位置和尺寸，使其更大，更居中一些 */
-  top: -25rem;  /* 向上移动更多 */
-  left: -30rem; /* 向左移动更多 */
-  width: 100rem; /* 大幅增加宽度 */
-  height: 60rem; /* 大幅增加高度 */
-  /* 直接使用颜色代码 */
-  background: linear-gradient(to top right, #ff80b5, #9089fc); /* pink to purple */
-  /* 可以适当增加一点点透明度，因为覆盖面积大了 */
-  opacity: 0.25; /* 尝试 0.25 或 0.3 */
-  filter: blur(96px); /* 保持或略微调整模糊 */
+  top: -25rem;
+  left: -30rem;
+  width: 100rem;
+  height: 60rem;
+  background: linear-gradient(to top right, #ff80b5, #9089fc);
+  opacity: 0.25;
+  filter: blur(96px);
   transform: rotate(-20deg) translateZ(0);
 }
 
-/* 右侧/底部光晕 - 同样增大尺寸并调整位置使其与 ::before 大量重叠 */
-body.route--/ header.hero::after {
+/* 右侧/底部光晕 - 恢复并修改选择器 */
+#homepage-hero::after {
   content: '';
   position: absolute;
   z-index: -1;
-  /* 调整位置和尺寸，使其与 ::before 重叠 */
-  bottom: -25rem; /* 向下移动更多 */
-  right: -30rem; /* 向右移动更多 */
-  width: 90rem;   /* 大幅增加宽度 */
-  height: 55rem;  /* 大幅增加高度 */
-  /* 直接使用颜色代码 */
-  background: linear-gradient(to bottom left, #fbcfe8, #9089fc); /* light pink to purple */
-  opacity: 0.22; /* 调整透明度，可以与 ::before 不同 */
-  filter: blur(80px); /* 保持或略微调整模糊 */
+  bottom: -25rem;
+  right: -30rem;
+  width: 90rem;
+  height: 55rem;
+  background: linear-gradient(to bottom left, #fbcfe8, #9089fc);
+  opacity: 0.22;
+  filter: blur(80px);
   transform: rotate(15deg) translateZ(0);
 }
 
@@ -116,11 +89,10 @@ body.route--/ header.hero::after {
   opacity: 0.9;
 }
 
-/* 按钮样式重设计 */
+/* 按钮样式重设计 - 恢复 */
 .button--secondary {
   background: white;
-  /* color: var(--ifm-color-primary-darker); /* 这会使用恢复后的全局主色 */
-  color: var(--ifm-color-emphasis-800); /* 或者使用一个中性强调色 */
+  color: var(--ifm-color-emphasis-800);
   border: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 600;
@@ -134,8 +106,7 @@ body.route--/ header.hero::after {
 
 .button--secondary:hover {
   background: white;
-  /* color: var(--ifm-color-primary-darker); */
-  color: var(--ifm-color-emphasis-1000); /* 对应上面的中性色 */
+  color: var(--ifm-color-emphasis-1000);
   transform: translateY(-2px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
@@ -156,7 +127,7 @@ body.route--/ header.hero::after {
     flex-direction: column;
     align-items: stretch;
   }
-  
+
   .button--secondary {
     width: 100%;
     margin: 0.5rem 0;
@@ -173,65 +144,19 @@ body.route--/ header.hero::after {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  background: linear-gradient(120deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* background gradient removed earlier, needs to be restored if variables are ok */
+  /* 如果你想恢复渐变背景，确保 --ifm-color-primary 等变量是有效的 */
+   background: linear-gradient(120deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 .features p {
   font-size: 1.1rem;
   line-height: 1.6;
+  /* 恢复 color 属性 */
   color: var(--ifm-color-emphasis-700);
-}
-
-/* 响应式优化 */
-@media screen and (max-width: 996px) {
-  .hero__title {
-    font-size: 2.5rem;
-  }
-  
-  .hero__subtitle {
-    font-size: 1.2rem;
-  }
-  
-  .features {
-    padding: 3rem 0;
-  }
-}
-
-/* 添加字体设置 */
-:root {
-  --ifm-font-family-base: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-}
-
-/* 针对不同操作系统优化字体显示 */
-body {
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* 标题字体 */
-h1, h2, h3, h4, h5, h6 {
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-weight: 600;
-}
-
-/* 优化文章内容区域 */
-.markdown {
-  --doc-width: 850px;
-  max-width: var(--doc-width);
-  margin: 0 auto;
-  padding: 0 24px;
-  font-size: 16px;
-  line-height: 1.7;
-}
-
-/* 正文和标题使用相同宽度 */
-.markdown p {
-  margin-bottom: 16px;
-  letter-spacing: 0.01em;
 }
 
 /* 图片容器 */
@@ -244,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+/* 恢复 .alert--tip 规则 */
 .alert--tip {
   --ifm-alert-background-color: var(--ifm-color-tip-contrast-background);
   --ifm-alert-border-color: var(--ifm-color-tip);
@@ -254,42 +180,36 @@ h1, h2, h3, h4, h5, h6 {
   fill: var(--ifm-color-tip);
 }
 
-/* 修改 tip 提示框的颜色为 warning 的颜色 */
+/* 恢复 Tip 提示框的特殊样式 */
 .theme-admonition-tip {
   --ifm-alert-background-color: rgba(246, 195, 67, 0.1) !important;
   --ifm-alert-border-color: rgb(246, 195, 67) !important;
   --ifm-alert-foreground-color: var(--ifm-color-warning-contrast-foreground) !important;
 }
 
-/* 修改 tip 图标的颜色 */
 .theme-admonition-tip .admonitionIcon_Rf37 svg {
   fill: rgb(246, 195, 67) !important;
 }
 
-/* 隐藏 tip 标题文字，只保留图标 */
 .theme-admonition-tip .admonitionHeading_Gvgb {
-  font-size: 0;  /* 将文字大小设为0 */
+  font-size: 0;
 }
 
 .theme-admonition-tip .admonitionIcon_Rf37 {
-  font-size: 16px;  /* 恢复图标大小 */
+  font-size: 16px;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-}
-
 .text-left {
   text-align: left;
 }
 
-/* 高亮 AI 编程入门按钮 */
+/* 高亮 AI 编程入门按钮 - 恢复 */
 .buttons_AeoN a[href="/docs/AI"].button--secondary {
-  background: linear-gradient(135deg, #8b5cf6, #6366f1); /* 紫色到蓝紫色渐变 */
+  background: linear-gradient(135deg, #8b5cf6, #6366f1);
   color: white;
   box-shadow: 0 4px 14px rgba(139, 92, 246, 0.4);
   border: none;
@@ -298,8 +218,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .buttons_AeoN a[href="/docs/AI"].button--secondary:hover {
-  background: linear-gradient(135deg, #9333ea, #4f46e5); /* 稍深的紫色渐变 */
+  background: linear-gradient(135deg, #9333ea, #4f46e5);
   box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
   transform: translateY(-3px);
   color: white;
 }
+
+/* --- 所有 CSS 规则均已移除 --- */
