@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_label: '环境配置'
+title: '第一节' 
 ---
 
-# AI 代码补全
+# 环境配置
 
 ## 基本用法
 

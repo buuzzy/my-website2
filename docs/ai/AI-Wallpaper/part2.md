@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_label: '接口构建'
+title: '第二节' 
 ---
 
-# AI 对话功能
+# 接口构建
 
 ## 基础对话
 

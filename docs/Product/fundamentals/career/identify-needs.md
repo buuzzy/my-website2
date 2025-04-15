@@ -14,7 +14,7 @@ sidebar_position: 5
 
 不同的逻辑会衍生出来不同的需求。就拿 "吃饭" 这件事来说，为了吃得高级或者款待朋友，我们会花重金去高级餐厅吃饭。或者将食品食材作为财富的象征，比方说鹿茸、花胶、燕窝等等。又比如为了吃得更健康，市面上会出现相应的轻食、补剂，以及针对你的目标而量身打造的减脂或增肌饮食。
 
-![01](/img/product/identify-needs_images/01.png)
+![01](/img/product/product/identify-needs_images/01.png)
 <div class="text-center">*吃饭这件“小事”*</div>
 <br/>
 
@@ -22,17 +22,17 @@ sidebar_position: 5
 
 在互联网普及之后，市面上有了地图软件、点评软件，信息扩散性的速度非常快。抛去带有营销性质的内容，餐馆能够以榜单、帖子的形式让每个人看到，心里有底。同时包括探店、试吃等类型的短视频流行，也进一步加快了我们了解一个地方美食、优质餐厅的效率。
 
-![02](/img/product/identify-needs_images/02.png)
+![02](/img/product/product/identify-needs_images/02.png)
 
 举一个社交领域的一个例子，目前我们熟知的社交产品，比方说国内的微信、QQ，国外的 Facebook，X（Twitter），这些社交产品并非一开始就是以 App 的形态出现。最早的互联网社交产品是个人网站，大家通过建站，在网站上放置个人的照片和信息，以此和其他人产生联系。
 
 但这种形式存在一定的技术壁垒，首先要购买域名、配备服务器，还有懂一点前端代码。于是在这个基础上出现了第二代社交产品，比方说 Chinaren 和 GeoCities，这类产品允许用户自行搭建组件建站，大大降低了用户的操作难度。
 
-![03](/img/product/identify-needs_images/03.png)
+![03](/img/product/product/identify-needs_images/03.png)
 <div class="text-center">*美剧《绝命毒师》中，主角 Walter White 的儿子为其做的筹款海报。*</div>
 <br/>
 
-![04](/img/product/identify-needs_images/04.PNG)
+![04](/img/product/product/identify-needs_images/04.PNG)
 <div class="text-center">*古早的QQ空间支持用户自定义主页，支持调整应用展示和布局。*</div>
 <br/>
 
@@ -50,7 +50,7 @@ sidebar_position: 5
 
 借由网络效应，现在互联网大部分对技术和环境的讨论都是超前的。或许说，我们不仅会讨论当下技术的难点，还会讨论未来需求和产品的形态。比方说当我们讨论所谓的 Web3 和区块链的时候，认知相当重要。Web3 是否是 Web2 的下一代版本还是说一个伪需求？区块链所宣传的去中心化理念是否是未来的发展方向？还是说仅是对日渐集中化的世界的一种叛逆？认知决定了产品经理如何处理当下的需求，也决定着他们对未来的看法。
 
-![05](/img/product/identify-needs_images/05.png)
+![05](/img/product/product/identify-needs_images/05.png)
 
 :::tip 提示
 **了解产品为什么失败**：还有一个提高认知的方式可能很少有人提及，就是去看产品是如何失败的。产品大佬们在关键节点是怎么做决策的？什么导致了失败，原因是什么？推荐大家去听潘乱的播客节目：[乱翻书](https://www.ximalaya.com/album/58236027)
@@ -95,4 +95,3 @@ sidebar_position: 5
 真正有效的办法是去问那些用了产品的人。产品不好用，客户会在反馈群里开喷，这类需求是很明显的。某些问题和需求不明显的，就需要去找那些对产品认可的用户搜集意见。
 
 在我们讨论需求 (Needs) 的时候，有很多的误区需要去识别，很多人会说我要一个解决方案，要一个结果。但是解决方案并不等于需求，产品或功能里的需求有很多，但是这些需求都隶属于一套解决方案。洞察解决方案中用户需求的真正目的，识别哪些需求是重要的，是贯穿产品经理洞察力修炼过程的核心问题。
-

@@ -8,11 +8,52 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: white;
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 11rem);
+  width: 36.125rem;
+  aspect-ratio: 1155/678;
+  transform: translateX(-50%) rotate(30deg);
+  background: linear-gradient(to right top, #ff80b5, #9089fc);
+  opacity: 0.3;
+  filter: blur(3rem);
+  z-index: -1;
+}
+
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  left: calc(50% + 3rem);
+  bottom: -13rem;
+  width: 36.125rem;
+  aspect-ratio: 1155/678;
+  transform: translateX(-50%);
+  background: linear-gradient(to right top, #ff80b5, #9089fc);
+  opacity: 0.3;
+  filter: blur(3rem);
+  z-index: -1;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
+  }
+  
+  .heroBanner::before {
+    top: -80px;
+    left: calc(50% - 30rem);
+    width: 72.1875rem;
+  }
+  
+  .heroBanner::after {
+    bottom: -30rem;
+    left: calc(50% + 36rem);
+    width: 72.1875rem;
   }
 }
 

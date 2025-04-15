@@ -15,15 +15,15 @@ sidebar_label: 如何写好数据埋点文档
 
 有这样的：
 
-![01](/img/product/how-to-write-tracking-docs_images/01.png)
+![01](/img/product/product/how-to-write-tracking-docs_images/01.png)
 
 也有这样的：
 
-![02](/img/product/how-to-write-tracking-docs_images/02.png)
+![02](/img/product/product/how-to-write-tracking-docs_images/02.png)
 
 还有这样的：
 
-![03](/img/product/how-to-write-tracking-docs_images/03.png)
+![03](/img/product/product/how-to-write-tracking-docs_images/03.png)
 
 有没有发现，上面三份不同的埋点文档都长得不太一样呢？
 
@@ -42,7 +42,7 @@ sidebar_label: 如何写好数据埋点文档
 
 ## 轻量级：要求清晰易懂
 
-![04](/img/product/how-to-write-tracking-docs_images/04.png)
+![04](/img/product/product/how-to-write-tracking-docs_images/04.png)
 
 ### 极简型DRD
 
@@ -259,7 +259,7 @@ sidebar_label: 如何写好数据埋点文档
 
 为此，就需要用出 K-V（Key-value）神器，也就是所谓的 “键值对”。简单来说，键值对的概念像是一种分类方法。键值对名称对应多个 key 值，一个 key 值对应多个 value 值。就像一级分类、二级分类、三级分类，逐级展开的形式。
 
-![05](/img/product/how-to-write-tracking-docs_images/05.png)
+![05](/img/product/product/how-to-write-tracking-docs_images/05.png)
 在实际的埋点文档中，键值对的表现形式大体如下：
 
 | 事件英文变量名   | 事件显示名       | 属性英文变量名          | 事件属性显示名 | 属性值类型  |
@@ -276,11 +276,11 @@ sidebar_label: 如何写好数据埋点文档
 
 **1、电商产品**
 
-![06](/img/product/how-to-write-tracking-docs_images/06.png)
+![06](/img/product/product/how-to-write-tracking-docs_images/06.png)
 
 **2、券商产品**
 
-![07](/img/product/how-to-write-tracking-docs_images/07.png)
+![07](/img/product/product/how-to-write-tracking-docs_images/07.png)
 
 更多产品埋点文档实例，参见下方链接：
     * [产品上线指南](https://www.sensorsdata.cn/service/onlineguide.html?t=sa)

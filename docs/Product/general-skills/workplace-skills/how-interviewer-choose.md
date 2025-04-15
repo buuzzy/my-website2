@@ -5,7 +5,7 @@ sidebar_label: 面试官是如何选人的？
 
 # 面试官是如何选人的？
 
-![01](/img/general-skills/how-interviewer-choose_images/01.png)
+![01](/img/product/general-skills/how-interviewer-choose_images/01.png)
 
 一般的，某个团队在需要扩充人才时都需要至少经过 5 个步骤：确定需求、选择渠道、筛选简历、深入面试、比较候选人。
 
@@ -100,7 +100,7 @@ sidebar_label: 面试官是如何选人的？
 
 什么的简历能够通过筛选？首先，得先了解下简历是如何流转的，我们以一个资深产品岗举例：
 
-![02](/img/general-skills/how-interviewer-choose_images/02.png)
+![02](/img/product/general-skills/how-interviewer-choose_images/02.png)
 
 可以看到一个简历从你投递到约面试中至少会有2次筛选：HR 初筛和需求方复筛。
 

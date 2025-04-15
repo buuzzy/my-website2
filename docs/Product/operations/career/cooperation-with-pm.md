@@ -90,7 +90,7 @@ Let‘s 学习 \~
 
 说明白这个环节之所以重要，原因在于运营的实现思路和研发的思路并不完全一致。运营的思路可能是 A to B，这件事就解决了。但在研发角度上看，A to B 中间还需要经历 toX、toY、toZ ... 才能真正到达 B。有些需求表面上看起来简单，但背地里复杂程度极高的比比皆是。
 
-![01](/img/operations/cooperation-with-pm_images/01.png)
+![01](/img/product/operations/cooperation-with-pm_images/01.png)
 
 这个时候，需要运营思考可能的流程会经历哪些环节，尽可能详细地描述，讲明白自己的思路。在 C 端，运营需要讲明白交互行为可能就满足基础要求了。
 

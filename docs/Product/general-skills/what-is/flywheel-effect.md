@@ -5,7 +5,7 @@ sidebar_label: 飞轮效应
 
 # 飞轮效应
 
-![01](/img/general-skills/flywheel-effect_images/01.png)
+![01](/img/product/general-skills/flywheel-effect_images/01.png)
 
 上图是Amazon的飞轮理论，起点是客户体验。通过早期图书品类的在线销售提供了当时十分卓越的用户体验，吸引了大量购书用户访问。用户越来越多，出版商也慕名而来，出版商合作的越多，书籍也就越多，用户能够选择的范围也就越大。
 
@@ -42,7 +42,7 @@ sidebar_label: 飞轮效应
 
 飞轮效应的概念并不复杂，甚至令人惊讶般地简单，越简单的理论应用场景越广泛，生命力越强。例如**产品经理效率的飞轮效应**：
 
-![02](/img/general-skills/flywheel-effect_images/02.png)
+![02](/img/product/general-skills/flywheel-effect_images/02.png)
 
     * 越多的产品经历能够让产品经理获得更多的数据结果；
     * 越多的数据结果可以帮助产品经理更好的总结沉淀；

@@ -10,15 +10,15 @@ const config: Config = {
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here
-  url: 'https://你的GitHub用户名.github.io',
+  url: 'https://buuzzy.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: '你的GitHub用户名', // 你的 GitHub 用户名
-  projectName: 'my-website', // 使用实际的仓库名
+  organizationName: 'buuzzy', // 你的 GitHub 用户名
+  projectName: 'buuzzy.github.io', // 使用实际的仓库名
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -67,8 +67,8 @@ const config: Config = {
       },
       items: [
         {
-          label: 'Cursor教程',
-          to: '/docs/Cursor',
+          label: 'AI 课程入门',
+          to: '/docs/AI',
         },
         {
           label: '产品设计入门',
@@ -78,22 +78,8 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Cursor教程',
-              to: '/docs/Cursor',
-            },
-            {
-              label: '产品设计入门',
-              to: '/docs/Product',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      links: [],
+      copyright: `Copyright © 2025 My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

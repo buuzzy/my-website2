@@ -25,7 +25,7 @@ sidebar_label: 规模效应
 <br/>
 
 其利润变化如下图所示：
-![01](/img/general-skills/scale-effect_images/01.png)
+![01](/img/product/general-skills/scale-effect_images/01.png)
 
 
 随着企业收入规模（订单规模）的上涨，毛利额逐渐扩大，减去固定成本后，利润也会随之上涨。
@@ -40,7 +40,7 @@ sidebar_label: 规模效应
 <br/>
 
 这就是规模效应，利用规模化后的更多毛利额抵消固定成本的支出。每增加一份边际收入，固定成本就会被摊得更薄，带来的边际利润增幅更大。
-![02](/img/general-skills/scale-effect_images/02.png)
+![02](/img/product/general-skills/scale-effect_images/02.png)
 
 ## 为什么规模效应如此重要
 
@@ -48,25 +48,25 @@ sidebar_label: 规模效应
 
 一级市场融资是让投资人相信你未来收益的行为，投资人出资解决当前的亏损问题，然后从未来的收益中分一杯羹，算的是 Profit - Investment / Time-spent 的账：
 
-![03](/img/general-skills/scale-effect_images/03.png)
+![03](/img/product/general-skills/scale-effect_images/03.png)
 
 因此，投资人、创始团队、愿意加入这份事业的员工均是希望未来 B 能够显著大于 A，规模效应越大，赚取回报的效率越高、越快：​​
 
-![04](/img/general-skills/scale-effect_images/04.png)
+![04](/img/product/general-skills/scale-effect_images/04.png)
 
 但现实是残酷的，创业九死一生，大部分创业团队根本走不到 Breakeven 的那一天，例如在融资款耗尽时，依然没有实现 Breakeven，难以继续筹措资金：
 
-![05](/img/general-skills/scale-effect_images/05.png)
+![05](/img/product/general-skills/scale-effect_images/05.png)
 
 又比如，规模效应的可持续性不强，是通过不断提高成本率带来的不良收入增长，这种情况下，规模越大越亏，创始团队需要更强劲的说服力才能持续获得融资，让投资人相信成本率会在未来下降：
 
-![06](/img/general-skills/scale-effect_images/06.png)
+![06](/img/product/general-skills/scale-effect_images/06.png)
 
 ### 规模效应是利润，也是护城河
 
 除了对利润的期许外，企业也应该关注规模变大后**成本率**的逐渐改善，不单单依靠规模带来的利润，还需要叠加经营改善带来的**额外利润**。
 
-![07](/img/general-skills/scale-effect_images/07.png)
+![07](/img/product/general-skills/scale-effect_images/07.png)
 
 因此，已经占据规模优势的企业，获取单位收入所需的成本比起初创的企业要低许多，自然可以动用更多的利润来争夺客户。所以，初创企业既需要不断投入打磨产品，又要在市场上与更有规模的同类企业竞争，难度变大。
 

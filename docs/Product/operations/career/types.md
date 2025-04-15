@@ -11,7 +11,7 @@ sidebar_label: 产品运营的类型
 
 如下图：
 
-![01](/img/operations/types_images/01.png)
+![01](/img/product/operations/types_images/01.png)
 
 按经典的人货场理念可以比较清晰理解为什么运营岗位这样分类。
 

@@ -182,6 +182,27 @@ const sidebars: SidebarsConfig = {
       ],
     },
   ],
+  ai: [
+    'ai/intro',
+    {
+      type: 'category',
+      label: '前期准备',
+      items: [
+        'ai/basic/installation',
+        'ai/basic/builddev',
+        'ai/basic/basicknowledge',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'AI 壁纸网站',
+      items: [
+        'ai/AI-Wallpaper/part1',
+        'ai/AI-Wallpaper/part2',
+        'ai/AI-Wallpaper/part3',
+      ],
+    },
+  ],
 };
 
 export default sidebars;
