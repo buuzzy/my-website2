@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Minimal Test Site',
-  tagline: 'Minimal Tagline',
+  title: '谈文解字',
+  tagline: '做最好的 AI 产品设计网站',
   // favicon: 'img/logo.svg',
 
   // Set the production url of your site here
@@ -58,17 +58,29 @@ const config: Config = {
       maxHeadingLevel: 4,
     },
     navbar: {
-      title: 'Minimal Site',
       logo: {
         alt: '谈文解字 Logo',
         src: 'img/logo.svg',
       },
-      items: [],
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'ai',
+          position: 'left',
+          label: 'AI 编程入门',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'product',
+          position: 'left',
+          label: '产品设计入门',
+        },
+      ],
     },
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Minimal Copyright`,
+      copyright: `Copyright © ${new Date().getFullYear()} 谈文解字. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
