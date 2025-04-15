@@ -8,8 +8,8 @@
   "github": {
     "silent": true
   },
-  "buildCommand": "pnpm install --no-frozen-lockfile && pnpm build",
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm install && pnpm build",
+  "installCommand": "pnpm install",
   "framework": "docusaurus",
   "outputDirectory": "build"
 }
