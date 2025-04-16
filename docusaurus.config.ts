@@ -15,11 +15,6 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-org', // 你的 GitHub 用户名
-  projectName: 'your-project', // 使用实际的仓库名
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
