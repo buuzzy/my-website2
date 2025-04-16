@@ -195,6 +195,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: '通用知识',
+      items: [
+        'ai/common-use/buildwebsite',
+      ],
+    },
+    {
+      type: 'category',
       label: 'AI 壁纸网站',
       items: [
         'ai/AI-Wallpaper/part1',

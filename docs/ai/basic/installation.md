@@ -15,16 +15,16 @@ title: '网络配置'
 ### 以纸巾云为例
 
 **1. 购买订阅**
-![01](/img/AI/installation/01.PNG)
+![01](/img/AI/basic/installation/01.PNG)
 
 **2. 选择订阅**
-![02](/img/AI/installation/02.PNG)
+![02](/img/AI/basic/installation/02.PNG)
 
 **3. 自行选择订阅**
 
 市面上的节点非常多，你可以在点击链接：[节点挑选](https://clashverge.org/node/)，挑选适合你的节点进行购买，注意甄别！  
 
-![03](/img/AI/installation/03.PNG)
+![03](/img/AI/basic/installation/03.PNG)
 
 请注意！网站的广告很多！下单购买前请认真阅读不同平台的使用说明！
 
@@ -37,8 +37,8 @@ title: '网络配置'
 
 在完成软件下载和节点购买之后，就可以使用 VPN 了，首先复制你购买节点的链接或者下载二维码截图，一般在机场网站中会提供。
 
-![04](/img/AI/installation/04.png)
-![05](/img/AI/installation/05.png)
+![04](/img/AI/basic/installation/04.png)
+![05](/img/AI/basic/installation/05.png)
 
 复制完成后，打开软件，点击配置 — 右上角+号，通过文件（你下载的二维码）或者 URL（你复制的链接）导入就可以了。
 
@@ -61,19 +61,19 @@ title: '网络配置'
 **1. 下载软件**
 
 在 Clash Verge 下载页面，下滑找到对应的下载地址进行下载，安装软件
-![06](/img/AI/installation/06.png)
+![06](/img/AI/basic/installation/06.png)
 
 **2. 订阅节点**
 
 打开软件，导入节点地址。导入流程和上面纸巾云的示例一样。
-![07](/img/AI/installation/07.png)
+![07](/img/AI/basic/installation/07.png)
 
 **3. 启用网络**
 
 点击设置，开启系统代理（多数情况下不用手动选择代理，Clash Verge 会自动选择最优节点）
-![08](/img/AI/installation/08.png)
+![08](/img/AI/basic/installation/08.png)
 
 **4. 检查网络**
 
 软件左下角显示实时网速，意味着连接成功
-![09](/img/AI/installation/09.png)
+![09](/img/AI/basic/installation/09.png)

@@ -44,7 +44,7 @@ title: '搭建开发环境'
 | ------- | ---------------- | ---------------------------------------------------------- |
 | Windows | Windows Terminal | https://learn.microsoft.com/zh-cn/windows/terminal/install |
 | Mac     | iterm2           | https://iterm2.com/                                        |
-|         | WSL2（暂不要求）       | 通过 Linxu 子系统协同开发，可百度了解或 B 站搜教程                             |
+|         | WSL2（暂不要求）       | 通过 Linxu 子系统协同开发，可百度了解或 B 站搜教程        |
 
 
 
@@ -54,14 +54,14 @@ title: '搭建开发环境'
 
 | 名称          | 功能     | 截图|
 | ----------- | ------ | ----|
-| Prettier    | 代码格式化  | ![01](/img/AI/builddev/01.png) |
-| REST Client | API 调试 | ![02](/img/AI/builddev/02.png) |
+| Prettier    | 代码格式化  | ![01](/img/AI/basic/builddev/01.png) |
+| REST Client | API 调试 | ![02](/img/AI/basic/builddev/02.png) |
 
 ### 2. 安装路径
 
 以 VS Code 为例，点击软件左侧 Extensions 搜索对应插件名称，也可以通过快捷键唤起。
 
-![03](/img/AI/builddev/03.png)
+![03](/img/AI/basic/builddev/03.png)
 
 
 
@@ -108,7 +108,7 @@ eval "`fnm env`"
 
 打开 PowerShell，可以通过 Win+R 唤起运行，输入 PowerShell 打开终端。
 
-![04](/img/AI/builddev/04.png)
+![04](/img/AI/basic/builddev/04.png)
 
 ```powershell
 # 设置 PowerShell 执行策略：
@@ -150,7 +150,7 @@ node -v
 npm -v
 ```
 
-![05](/img/AI/builddev/05.png)
+![05](/img/AI/basic/builddev/05.png)
 
 ### 3. pnpm
 
