@@ -204,6 +204,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'AI 壁纸网站',
       items: [
+        'ai/AI-Wallpaper/intro',
         'ai/AI-Wallpaper/part1',
         'ai/AI-Wallpaper/part2',
         'ai/AI-Wallpaper/part3',
